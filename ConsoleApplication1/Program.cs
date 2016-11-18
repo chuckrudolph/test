@@ -32,6 +32,7 @@ namespace ConsoleApplication1
 
             Console.ReadLine();
             return;
+            // a new line in this branch
         }
     }
 }
