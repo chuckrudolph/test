@@ -30,7 +30,7 @@ namespace ConsoleApplication1
             UnicodeEncoding u = new UnicodeEncoding();
             Console.WriteLine("hash in string form is " + Convert.ToBase64String(theHash));
 
-            //Console.ReadLine();
+            Console.ReadLine();
 
         }
     }
