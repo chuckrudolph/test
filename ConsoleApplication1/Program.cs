@@ -31,7 +31,7 @@ namespace ConsoleApplication1
             Console.WriteLine("hash in string form is " + Convert.ToBase64String(theHash));
 
             Console.ReadLine();
-            return;
+            return; //another test
         }
     }
 }
