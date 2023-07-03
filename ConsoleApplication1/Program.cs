@@ -10,6 +10,7 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             string path = @"d:\temp\test.txt";
+            int b2 = 2;         // line from b2 off master
 
             System.IO.FileStream fs = new System.IO.FileStream(path, System.IO.FileMode.Open);
             byte[] data = new byte[(int)fs.Length];
