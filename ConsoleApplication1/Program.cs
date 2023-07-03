@@ -10,8 +10,17 @@ namespace ConsoleApplication1
         static void Main(string[] args)
         {
             string path = @"d:\temp\test.txt";
+//--take  both again with a merge into 3 from 1
+//--<<<<<<< HEAD
             int b3 = 3; //added line after branch
+//--=======
+//take both lines
+//<<<<<<< HEAD
+//-->>>>>>> b1
             int b2 = 2;         // line from b2 off master
+//=======
+            int b1 = 1; // fresh branch off of master
+//>>>>>>> f9729f8 (added line to b1 after branch from master)
 
             System.IO.FileStream fs = new System.IO.FileStream(path, System.IO.FileMode.Open);
             byte[] data = new byte[(int)fs.Length];
