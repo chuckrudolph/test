@@ -22,13 +22,19 @@ namespace ConsoleApplication1
 ////            int b1 = 1; // fresh branch off of master
 ////                        //>>>>>>> f9729f8 (added line to b1 after branch from master)
 
-//////<<<<<<< HEAD
-//////////            b1++;
-//////////>>>>>>> 5010e49 (b3 push 1)
-//////=======
-//////            b1++;
-//////            b2++;
-//////>>>>>>> a1dfc5f (b3 push 2)
+////////<<<<<<< HEAD
+//////////////<<<<<<< HEAD
+//////////////////            b1++;
+//////////////////>>>>>>> 5010e49 (b3 push 1)
+//////////////=======
+//////////////            b1++;
+//////////////            b2++;
+//////////////>>>>>>> a1dfc5f (b3 push 2)
+////////=======
+////////            b1++;
+////////            b2++;
+////////            b2 *= 2;
+////////>>>>>>> 9af6a36 (another push???)
 
             System.IO.FileStream fs = new System.IO.FileStream(path, System.IO.FileMode.Open);
             byte[] data = new byte[(int)fs.Length];
