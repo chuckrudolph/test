@@ -20,7 +20,9 @@ namespace ConsoleApplication1
             int b2 = 2;         // line from b2 off master
 //=======
             int b1 = 1; // fresh branch off of master
-//>>>>>>> f9729f8 (added line to b1 after branch from master)
+                        //>>>>>>> f9729f8 (added line to b1 after branch from master)
+
+            b1++;
 
             System.IO.FileStream fs = new System.IO.FileStream(path, System.IO.FileMode.Open);
             byte[] data = new byte[(int)fs.Length];
