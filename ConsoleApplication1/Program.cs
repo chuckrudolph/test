@@ -22,6 +22,7 @@ namespace ConsoleApplication1
             b1 *= 4;
             b1 /= 4;
             b1 *= 2;
+            b1 *= 2;
 
 
             System.Security.Cryptography.SHA1CryptoServiceProvider sha1 = new System.Security.Cryptography.SHA1CryptoServiceProvider();
